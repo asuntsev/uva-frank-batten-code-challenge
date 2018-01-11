@@ -63,10 +63,15 @@ Manually setting up Windows machine:
    to the c:\Apache24\htdocs folder. You should have the following directory structure in the c:\Apache24\htdocs folder:
 
    c:\Apache24\htdocs\css         -- folder
+   
    c:\Apache24\htdocs\fonts       -- folder
+   
    c:\Apache24\htdocs\images      -- folder
+   
    c:\Apache24\htdocs\js          -- folder
+   
    c:\Apache24\htdocs\index.html  -- plain file
+   
     
 4. Start the page by typing in your browser the following URL:
 
