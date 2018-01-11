@@ -94,18 +94,26 @@ Manually setting up Linux machine:
    to the /var/www/html folder (you should have ROOT privileges). You should have the following directory structure in the c:\Apache24\htdocs folder:
 
    /var/www/html/css         -- folder
+   
    /var/www/html/fonts       -- folder
+   
    /var/www/html/images      -- folder
+   
    /var/www/html/js          -- folder
+   
    /var/www/html/index.html  -- plain file
+   
     
 3. Set up ownership and permissions for all files from this directory:
 
    $ cd /var/www
+   
    $ find /var/www/html -type d -exec chmod 775 {} +
+   
    $ find /var/www/html -type f -exec chmod 664 {} +
+   
    $ find /var/www/html -exec chown ec2-user:ec2-user -R {} +
-
+   
 4. Start the page by typing in your browser the following URL:
 
    http://[Your Linux Web Server Host name]/index.html#
