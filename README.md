@@ -108,7 +108,7 @@ Manually setting up Linux machine:
    The "Simulation Games mockup web page" should be shown and ready to interact with you.
 
 ------------------------------------------------------------------------------------------------
-   To convert this "Simulation Games web page mockup" into production web site, I would suggest 
+To convert this "Simulation Games web page mockup" into production web site, I would suggest 
 to consider the following options:
 ------------------------------------------------------------------------------------------------
 
