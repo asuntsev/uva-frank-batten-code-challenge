@@ -1,0 +1,386 @@
+html, body, .container-fluid, .row 
+{
+	height: 100%;
+}
+
+body 
+{
+    padding-bottom: 40px;
+    padding-top: 60px;
+    background-image: url('images/UVA_background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* TOP Navbar styling */
+
+.navbar-right
+{
+    padding-right: 25px;
+}
+
+.form-group
+{
+    padding: 10px;
+}
+
+.error-message
+{
+    font-size: 10px;
+}
+
+#login-dropdown-form
+{
+     width: 400px; 
+}
+.color-blue
+{
+    color: #d39215;
+}
+.form-group > .btn-primary
+{
+    color: #1e08a0;
+    background-color: #d39215;
+}
+
+.form-group > .pull-right > a
+{
+    color: #d39215;
+}
+
+.navbar-fixed-top 
+{
+    min-height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a 
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 40px;
+}
+
+.navbar-nav > li > a:focus, 
+.navbar-nav > li > a:hover 
+{
+    background: #d39215;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    font-color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* BOTTOM navbar styling */
+
+.navbar-fixed-bottom 
+{
+    min-height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer > .navbar-nav > li > a:focus, 
+.footer > .navbar-nav > li > a:hover 
+{
+    background: #d39215;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    font-color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* ------------------------------------ */
+
+.full-width-div
+{
+    width: 100%;
+}
+
+/* LEFT Sidebar styling */
+
+#sidebar-wrapper-left
+{
+    height: 100%;
+    padding: 0px 0px 0px 10px;  
+    background: #ffffff;        
+    opacity: 0.4;               
+    filter: alpha(opacity=40);  
+}
+
+#sidebar-left
+{
+    position: relative;
+    height: 100%;
+    overflow:hidden;
+    background: #ffffff;
+    padding: 10px 0 0px 0;
+}
+
+#sidebar-left .list-group-item 
+{
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-weight: bold;
+    color: black;
+}
+
+#sidebar-left .list-group > li > a:hover
+{
+    color: red;
+    background: black;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+/* RIGHT sidebar styling */
+
+#sidebar-wrapper-right
+{
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+    background: #ffffff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#sidebar-right
+{
+    position: relative;
+    height: 100%;
+    background: #ffffff;
+    overflow:hidden;
+    padding: 10px 0 0px 0;
+}
+
+#sidebar-right .list-group-item 
+{
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 130%;
+    font-weight: bold;
+    color: #1f85c0;
+}
+#sidebar-right .list-group > li > a:hover
+{
+    color:red;
+    background: black;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+/* --- Carousel --------------------------------------------------------------------------------------*/
+
+.carousel-indicators .active 
+{
+    background-color: #2980b9;
+}
+/*
+.carousel-inner img 
+{
+    width: 100%;
+    max-height: 800px
+}
+*/
+div.c-wrapper
+{
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img
+{
+    width: 100%;
+    margin: auto;
+}
+
+.left.carousel-control
+{
+    margin-left: -75px; color: black;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;           
+    background-color: Transparent;
+    color: #d39215;
+}
+
+.right.carousel-control 
+{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;           
+    background-color: Transparent;
+    color: #d39215;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next 
+{
+	position: absolute;
+	top: 60%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev 
+{
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next 
+{
+	right: 0;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover 
+{
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text 
+{
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 
+{
+    font-size: 40px;
+}
+
+.header-text h2 span 
+{
+    background-color: #d39215;
+	padding: 10px;
+    color: #190378;
+    opacity: 0.6;
+}
+
+.header-text h3 span 
+{
+	background-color: #000;
+	padding: 15px;
+}
+
+.game-description
+{
+	padding: 10px;
+    color: #190378;
+    font-size: 2em;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme 
+{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover 
+{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-register-to-game
+{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    /*border: none;*/
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 2em;
+    font-weight: bold;
+    /*opacity: 0.4;*/
+}
+
+.go-home-btn 
+{
+    background-color: #d39215;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #190378;
+    /*opacity: 0.4;*/
+}
+
+.jumbotron
+{
+     /*background-image:url(img/main-bg.png);*/
+     background-repeat:no-repeat;
+     background-position:200% 100%;
+     margin-bottom:70px;
+     opacity: 0.7;               
+     filter: alpha(opacity=70);
+     padding: 1em 1em 1em 1em;
+     h1 
+     {
+        font-size: 2em;
+     }
+     p 
+     {
+        font-size: 1.2em;
+        .btn 
+        {
+            padding: 0.5em;
+        }
+     }
+}
+
+/*
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+*/
+
+
+/*
+@media (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    background-color: #CCCCCC;
+  }
+}
+*/
