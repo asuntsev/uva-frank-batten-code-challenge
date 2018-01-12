@@ -1,6 +1,6 @@
-<!--                                                        -->
+<!--                                                                                                              -->
 <!-- This Web page mockup has been created by Andrey Suntsev in frames of "Technical Code Challenge" requirements -->
-<!-- January 11, 2018. All rights reserved. Andrey Suntsev asuntsev@gmail.com -->
+<!-- January 11, 2018. All rights reserved. Andrey Suntsev asuntsev@gmail.com                                     -->
 <!--                                                                                                              -->
 <!DOCTYPE html>
 <html>
@@ -36,9 +36,6 @@
                 <nav class="collapse navbar-collapse">
 
                     <ul class="nav navbar-nav">
-                        <!--<li>                                                                       -->
-                        <!--    <a href="#">Frank Batten School of Leadership and Public Policy</a>    -->
-                        <!--</li>                                                                      -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">School<b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -164,233 +161,192 @@
 
                 <div id="carousel-wrapper" class="col-md-8">
                     <div class="container full-width-div">
-                        <div class="col-md-6">
 
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                                    <div class="col-sm-10">
-                                        <input class="form-control user-info" id="input-session-name" type="text"
-                                            placeholder="Active session: Session B (01/09/2018)..." disabled>
-                                    </div>
-                                </div>
-                                <fieldset disabled>
-                            </form>
+                        <div class="c-wrapper">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                                    <div class="col-sm-10">
-                                        <input class="form-control user-info" id="input-gamer-name" type="text"
-                                            placeholder="Gamer: Sarah Connor" disabled>
-                                    </div>
-                                </div>
-                                <fieldset disabled>
-                            </form>
+                                <ol class="carousel-indicators">                                           
+                                  	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>   
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>                  
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>                  
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>                  
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>                  
+                                </ol>                                                                      
 
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                                    <div class="col-sm-10">
-                                        <input class="form-control user-info" id="input-access-type" type="text"
-                                            placeholder="Access: Participant" disabled>
-                                    </div>
-                                </div>
-                                <fieldset disabled>
-                            </form>
-                        
-                        </div>
+                                <div class="carousel-inner"> <!-- Wrapper for Game Desc Slides -->
 
-                        <!--<div class="row">-->
-                            <div class="c-wrapper">
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                                    <ol class="carousel-indicators">
-                                      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                                    </ol>
-
-                                    <div class="carousel-inner"> <!-- Wrapper for Game Desc Slides -->
-
-                                        <div class="item active">
-                                        	<img src="images/Game_Desc_Background.png" alt="">
-                                            <div class="header-text hidden-xs">
-                                                <div class="col-md-12 text-center">
-                                                    <h2>
-                                                    	<span>Welcome to <strong>Global Food Game</strong></span>
-                                                    </h2>
-                                                    <br>
-                                                    <form class="form-horizontal">
-                                                        <div class="form-group">
-                                                            <div class="col-md-12 text-center game-description">
-                                                                The simulation consists of 30 indicators or data points that give a picture of food security in a specific 
-                                                                country and region. Players are tasked with improving food security in their region, and working toward
-                                                                the U.N. Sustainable Goal of a hunger-free world by 2030. Students have the opportunity to make important
-                                                                funding and programming decisions as they work together to improve food security.
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <br>
-                                                    <div class="">
-                                                        <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
+                                    <div class="item active">
+                                    	<img src="images/Game_Desc_Background.png" alt="">
+                                        <div class="header-text hidden-xs">
+                                            <div class="col-md-12 text-center">
+                                                <h3>
+                                                	<span>Welcome to <strong>Global Food Game</strong></span>
+                                                </h3>
+                                                <br>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
                                                         <div class="col-md-12 text-center">
-                                                            <!--<button id="Register-to-Global-Food" class="btn btn-info" onclick="onClick_Register_to_Global_Food();">Register for this Game</button>-->
-                                                            <button id="Register-to-Global-Food" class="btn btn-default btn-register-to-game">Register for this Game</button>
+                                                            <p class="game-description">
+                                                               The simulation consists of 30 indicators or data points that give a picture of food security in a specific 
+                                                               country and region. Players are tasked with improving food security in their region, and working toward
+                                                               the U.N. Sustainable Goal of a hunger-free world by 2030. Students have the opportunity to make important
+                                                               funding and programming decisions as they work together to improve food security.
+                                                            </p>
                                                         </div>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="">
+                                                    <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
+                                                    <div class="col-md-12 text-center">
+                                                        <!--<button id="Register-to-Global-Food" class="btn btn-info" onclick="onClick_Register_to_Global_Food();">Register for this Game</button>-->
+                                                        <button id="Register-to-Global-Food" class="btn btn-default btn-register-to-game">Register for this Game</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="item">
-                                        	<img src="images/Game_Desc_Background.png" alt="">
-                                            <div class="header-text hidden-xs">
-                                                <div class="col-md-12 text-center">
-                                                    <h2>
-                                                    	<span>Welcome to <strong>The UVA Bay Game®</strong></span>
-                                                    </h2>
-                                                    <br>
-                                                    <form class="form-horizontal">
-                                                        <div class="form-group">
-                                                            <div class="col-md-12 text-center game-description">
-                                                                CLSGs oldest game, the UVA Bay Game, has been played more than 200 times by diverse audiences ranging 
-                                                                from high schools to the U.S. House of Representatives, GE Water & Power to NOAA and the EPA. This online, 
-                                                                multiplayer, game shoulders on participants the responsibilities of real-world stakeholders who live in and
-                                                                make a living on the Chesapeake Bay Watershed, including Crop Farmers, Land Developers, Watermen and 
-                                                                state-level policymakers. Players learn the impacts of their decisions on the health of Bay and work together
-                                                                to balance both environmental and economic sustainability.
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <br>
-                                                    <div class="">
-                                                        <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
-                                                        <div class="col-md-12 text-center">
-                                                            <button id="Register-to-UVA-Bay-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="item">
-                                        	<img src="images/Game_Desc_Background.png" alt="">
-                                            <div class="header-text hidden-xs">
-                                                <div class="col-md-12 text-center">
-                                                    <h2>
-                                                    	<span>Welcome to <strong>The Louisiana Coastal Resilience Game</strong></span>
-                                                    </h2>
-                                                    <br>
-                                                    <form class="form-horizontal">
-                                                        <div class="form-group">
-                                                            <div class="col-md-12 text-center game-description">
-                                                                <p>What does the future hold for culture, industry, and ecology along the coast of Louisiana? What can be
-                                                                done about it? The Louisiana Coastal Resilience Game allows federal, state, and local regulators, as 
-                                                                well as corporations and NGOs, to implement protective and restorative efforts of varying costs and
-                                                                estimated degrees of impact along Louisianas coastline and observe potential future outcomes under
-                                                                different policy and weather scenarios. Actions available to players are well-grounded, derived from
-                                                                research done by McKinsey & Co. and from the Louisiana Coastal Protection and Restoration 
-                                                                Authoritys <span style="font-weight: bold;">State Master Plan</span>.</p>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <br>
-                                                    <div class="">
-                                                        <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
-                                                        <div class="col-md-12 text-center">
-                                                            <button id="Register-to-Louisiana-Coastal-Resilience-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="item">
-                                        	<img src="images/Game_Desc_Background.png" alt="">
-                                            <div class="header-text hidden-xs">
-                                                <div class="col-md-12 text-center">
-                                                    <h2>
-                                                    	<span>Welcome to <strong>Poverty Simulation</strong></span>
-                                                    </h2>
-                                                    <br>
-                                                    <form class="form-horizontal">
-                                                        <div class="form-group">
-                                                            <div class="col-md-12 text-center game-description">
-                                                                Can you survive a month in poverty? Poverty Sim participants take on the roles of members of impoverished
-                                                                families or staffers at community agencies and resources that support low-income families. The objective
-                                                                is to sensitize us to the day-to-day realities of life faced by people with low incomes in the US and 
-                                                                abroad and to motivate us to become involved in activities which help to mitigate poverty here and globally. 
-                                                                Your goals may include keeping your home secure, providing food and clothing for your family, making your utility 
-                                                                and loan payments on time, or helping your children through school, all while responding to unexpected and 
-                                                                sometimes unfortunate events. 
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <br>
-                                                    <div class="">
-                                                        <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
-                                                        <div class="col-md-12 text-center">
-                                                            <button id="Register-to-Poverty-Simulation-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="item">
-                                        	<img src="images/Game_Desc_Background.png" alt="">
-                                            <div class="header-text hidden-xs">
-                                                <div class="col-md-12 text-center">
-                                                    <h2>
-                                                    	<span>Welcome to <strong>Pensions Simulation</strong></span>
-                                                    </h2>
-                                                    <br>
-                                                    <form class="form-horizontal">
-                                                        <div class="form-group">
-                                                            <div class="col-md-12 text-center game-description">
-                                                                The pensions simulation in PPOL7010 and PLCP3120 tries to show students that there is no single 
-                                                                technocratic answer to whether pensions should be expanded or cut back. Rather, most choices 
-                                                                around pensions are about moral preferences or decisions about who should work and how much. 
-                                                                Students can vary a number of important parameters (retirement age, payouts, tax levels) and 
-                                                                see their putative effects on important macro-economic variables. This opens up a discussion 
-                                                                about the basis for the choice of parameters and also the underlying assumptions behind the model.  
-                                                                Additionally, starting conditions for the sim are based on real world countries, illustrating 
-                                                                variations in the challenges facing different countries.
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <br>
-                                                    <div class="">
-                                                        <!--<a class="btn btn-theme btn-sm btn-min-block" href="Food_Game_Control_Page.html">Register for this Game</a>-->
-                                                        <div class="col-md-12 text-center">
-                                                            <button id="Register-to-Pensions-Simulation-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
 
-                                    <!-- To Right/To Left Controls -->
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                    	<span style="font-size:5em;" class="glyphicon glyphicon-chevron-left"></span>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                    	<span style="font-size:5em;" class="glyphicon glyphicon-chevron-right"></span>
-                                    </a>
-    		
+                                    <div class="item">
+                                    	<img src="images/Game_Desc_Background.png" alt="">
+                                        <div class="header-text hidden-xs">
+                                            <div class="col-md-12 text-center">
+                                                <h3>
+                                                	<span>Welcome to <strong>The UVA Bay Game®</strong></span>
+                                                </h3>
+                                                <br>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center game-description">
+                                                            CLSGs oldest game, the UVA Bay Game, has been played more than 200 times by diverse audiences ranging 
+                                                            from high schools to the U.S. House of Representatives, GE Water & Power to NOAA and the EPA. This online, 
+                                                            multiplayer, game shoulders on participants the responsibilities of real-world stakeholders who live in and
+                                                            make a living on the Chesapeake Bay Watershed, including Crop Farmers, Land Developers, Watermen and 
+                                                            state-level policymakers. Players learn the impacts of their decisions on the health of Bay and work together
+                                                            to balance both environmental and economic sustainability.
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="">
+                                                    <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
+                                                    <div class="col-md-12 text-center">
+                                                        <button id="Register-to-UVA-Bay-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                    	<img src="images/Game_Desc_Background.png" alt="">
+                                        <div class="header-text hidden-xs">
+                                            <div class="col-md-12 text-center">
+                                                <h3>
+                                                	<span>Welcome to <strong>The Louisiana Coastal Resilience Game</strong></span>
+                                                </h3>
+                                                <br>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center game-description">
+                                                            <p>What does the future hold for culture, industry, and ecology along the coast of Louisiana? What can be
+                                                            done about it? The Louisiana Coastal Resilience Game allows federal, state, and local regulators, as 
+                                                            well as corporations and NGOs, to implement protective and restorative efforts of varying costs and
+                                                            estimated degrees of impact along Louisianas coastline and observe potential future outcomes under
+                                                            different policy and weather scenarios. Actions available to players are well-grounded, derived from
+                                                            research done by McKinsey & Co. and from the Louisiana Coastal Protection and Restoration 
+                                                            Authoritys <span style="font-weight: bold;">State Master Plan</span>.</p>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="">
+                                                    <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
+                                                    <div class="col-md-12 text-center">
+                                                        <button id="Register-to-Louisiana-Coastal-Resilience-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                    	<img src="images/Game_Desc_Background.png" alt="">
+                                        <div class="header-text hidden-xs">
+                                            <div class="col-md-12 text-center">
+                                                <h3>
+                                                	<span>Welcome to <strong>Poverty Simulation</strong></span>
+                                                </h3>
+                                                <br>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center game-description">
+                                                            Can you survive a month in poverty? Poverty Sim participants take on the roles of members of impoverished
+                                                            families or staffers at community agencies and resources that support low-income families. The objective
+                                                            is to sensitize us to the day-to-day realities of life faced by people with low incomes in the US and 
+                                                            abroad and to motivate us to become involved in activities which help to mitigate poverty here and globally. 
+                                                            Your goals may include keeping your home secure, providing food and clothing for your family, making your utility 
+                                                            and loan payments on time, or helping your children through school, all while responding to unexpected and 
+                                                            sometimes unfortunate events. 
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="">
+                                                    <!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Register for this Game</a>-->
+                                                    <div class="col-md-12 text-center">
+                                                        <button id="Register-to-Poverty-Simulation-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                    	<img src="images/Game_Desc_Background.png" alt="">
+                                        <div class="header-text hidden-xs">
+                                            <div class="col-md-12 text-center">
+                                                <h3>
+                                                	<span>Welcome to <strong>Pensions Simulation</strong></span>
+                                                </h3>
+                                                <br>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center game-description">
+                                                            The pensions simulation in PPOL7010 and PLCP3120 tries to show students that there is no single 
+                                                            technocratic answer to whether pensions should be expanded or cut back. Rather, most choices 
+                                                            around pensions are about moral preferences or decisions about who should work and how much. 
+                                                            Students can vary a number of important parameters (retirement age, payouts, tax levels) and 
+                                                            see their putative effects on important macro-economic variables. This opens up a discussion 
+                                                            about the basis for the choice of parameters and also the underlying assumptions behind the model.  
+                                                            Additionally, starting conditions for the sim are based on real world countries, illustrating 
+                                                            variations in the challenges facing different countries.
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="">
+                                                    <div class="col-md-12 text-center">
+                                                        <button id="Register-to-Pensions-Simulation-Game" class="btn btn-default btn-register-to-game">Register for this Game</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+                                <!-- To Right/To Left Controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                	<span style="font-size:5em;" class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                	<span style="font-size:5em;" class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+		
                             </div>
-                        <!--</div>-->
-
-
-
+                        </div>
                     </div>
-                   
                 </div> 
 
                 <div  id="sidebar-wrapper-right" class="col-md-2">
@@ -435,43 +391,6 @@
         <div id="global-food-page" class="col-md-11 pull-right" style="display:none">
             <div id="main-child">
 
-                <div class="col-md-6">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-session-name-child" type="text"
-                                    placeholder="Active session: Session B (01/09/2018)..." disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-gamer-name-child" type="text"
-                                    placeholder="Gamer: Sarah Connor" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-access-type-child" type="text"
-                                    placeholder="Access: Participant" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                </div>
-
                 <div class="row">
                     <div class="col-md-10">
                          <div class="jumbotron">
@@ -500,43 +419,6 @@
 
         <div id="UVA-Bay-page" class="col-md-11 pull-right" style="display:none">
             <div id="main-child">
-
-                <div class="col-md-6">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-session-name-child2" type="text"
-                                    placeholder="Active session: Session B (01/09/2018)..." disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-gamer-name-child2" type="text"
-                                    placeholder="Gamer: Sarah Connor" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-access-type-child2" type="text"
-                                    placeholder="Access: Participant" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                </div>
 
                 <div class="row">
                     <div class="col-md-10">
@@ -567,43 +449,6 @@
         <div id="Louisiana-Coastal-Resilience-page" class="col-md-11 pull-right" style="display:none">
             <div id="main-child">
 
-                <div class="col-md-6">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-session-name-child3" type="text"
-                                    placeholder="Active session: Session B (01/09/2018)..." disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-gamer-name-child3" type="text"
-                                    placeholder="Gamer: Sarah Connor" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-access-type-child3" type="text"
-                                    placeholder="Access: Participant" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                </div>
-
                 <div class="row">
                     <div class="col-md-10">
                          <div class="jumbotron">
@@ -633,43 +478,6 @@
         <div id="Poverty-Simulation-page" class="col-md-11 pull-right" style="display:none">
             <div id="main-child">
 
-                <div class="col-md-6">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-session-name-child4" type="text"
-                                    placeholder="Active session: Session B (01/09/2018)..." disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-gamer-name-child4" type="text"
-                                    placeholder="Gamer: Sarah Connor" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-access-type-child4" type="text"
-                                    placeholder="Access: Participant" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                </div>
-
                 <div class="row">
                     <div class="col-md-10">
                          <div class="jumbotron">
@@ -698,43 +506,6 @@
 
         <div id="Pensions-Simulation-page" class="col-md-11 pull-right" style="display:none">
             <div id="main-child">
-
-                <div class="col-md-6">
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-session-name" class="col-sm-2 control-label">Active session:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-session-name-child5" type="text"
-                                    placeholder="Active session: Session B (01/09/2018)..." disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-gamer-name" class="col-sm-2 control-label">Gamer:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-gamer-name-child5" type="text"
-                                    placeholder="Gamer: Sarah Connor" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <!--<label for="input-access-type" class="col-sm-2 control-label">Access:</label>-->
-                            <div class="col-sm-10">
-                                <input class="form-control user-info" id="input-access-type-child5" type="text"
-                                    placeholder="Access: Participant" disabled>
-                            </div>
-                        </div>
-                        <fieldset disabled>
-                    </form>
-
-                </div>
 
                 <div class="row">
                     <div class="col-md-10">

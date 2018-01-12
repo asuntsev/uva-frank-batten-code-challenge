@@ -178,23 +178,23 @@ body
 
 /* --- Carousel --------------------------------------------------------------------------------------*/
 
+.carousel-indicators 
+{
+  bottom:-50px;
+}
 .carousel-indicators .active 
 {
     background-color: #2980b9;
 }
-/*
-.carousel-inner img 
-{
-    width: 100%;
-    max-height: 800px
-}
-*/
 div.c-wrapper
 {
     width: 80%;
     margin: auto;
 }
-
+.carousel-inner 
+{
+   margin-bottom:50px;
+}
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img
 {
@@ -231,7 +231,7 @@ div.c-wrapper
 .carousel-control .icon-next 
 {
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	z-index: 5;
 	display: inline-block;
 }
@@ -259,40 +259,13 @@ div.c-wrapper
 .header-text 
 {
     position: absolute;
-    top: 20%;
     left: 1.8%;
     right: auto;
     width: 96.66666666666666%;
-    color: #fff;
 }
 
-.header-text h2 
+.btn-min-block 
 {
-    font-size: 40px;
-}
-
-.header-text h2 span 
-{
-    background-color: #d39215;
-	padding: 10px;
-    color: #190378;
-    opacity: 0.6;
-}
-
-.header-text h3 span 
-{
-	background-color: #000;
-	padding: 15px;
-}
-
-.game-description
-{
-	padding: 10px;
-    color: #190378;
-    font-size: 2em;
-}
-
-.btn-min-block {
     min-width: 170px;
     line-height: 26px;
 }
@@ -320,7 +293,7 @@ div.c-wrapper
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
     /*opacity: 0.4;*/
 }
@@ -349,11 +322,11 @@ div.c-wrapper
      padding: 1em 1em 1em 1em;
      h1 
      {
-        font-size: 2em;
+        font-size: 1em;
      }
      p 
      {
-        font-size: 1.2em;
+        font-size: 0.8em;
         .btn 
         {
             padding: 0.5em;
@@ -361,26 +334,27 @@ div.c-wrapper
      }
 }
 
-/*
-@media (max-width: 767px) {
-    .navbar-nav > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;}
+/* Medium devices (tablets, 668px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 668px) 
+{  
+  .header-text h3 span {font-size:1em; color:blue;}
+  .game-description {font-size:0.8em; color:blue;}
+  .header-text {top: 1%;}
 }
-*/
-
-
-/*
-@media (min-width: 992px) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1000;
-    display: block;
-    background-color: #CCCCCC;
-  }
+ 
+/* Large devices (desktops, 740px and up) */
+@media (min-width: 740px) 
+{ 
+  .header-text h3 span {font-size:1.1em; color:black;}
+  .game-description {font-size:1em; color:black;}
+  .header-text {top: 2%;}
 }
-*/
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{  
+  .header-text h3 span {font-size:1.3em; color:black;}
+  .game-description {font-size:1.3em; color:black;}
+  .header-text {top: 5%;}
+}
+ 
