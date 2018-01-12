@@ -22,6 +22,12 @@ Please note:
 -   That is why the page is server less, it's standalone. Other words to be run, it does not 
     require any Web services, database, user authentication and so on. It simply represents 
     some ideas how user interface can be designed.
+    
+-   This web page has been tested on desktop and laptop units running Windows operating system.
+    Browsers: MS Edge, Mozilla Firefox Standard & Developer Editions, Google Chrome
+    
+-   The Web Page keeps its functionality and overall layout while width of the viewing area (browser
+    window width) greater than 740px. 
 
 ------------------------------------------------------------------------------------------------
 How to access the page's repository through web browser:
@@ -37,7 +43,8 @@ In order to run the page (to verify its interactivity features), you may conside
 1. Copy overall GitHub repository to your Windows or Linux computer and make it searchable for 
    the Apache Web Server (described below);
 
-2. Run it from Andrey Suntsev's AWS EC2 Linux instance by link: 
+2. Run it from Andrey Suntsev's AWS EC2 Linux instance by link below. I'm confirming that the web page source code
+   being stored on GitHub and source code on the AWS EC2 instance ARE IDENTICAL.
 
    http://ec2-54-158-25-204.compute-1.amazonaws.com/uva-gswp/index.html
 
@@ -128,10 +135,13 @@ to consider the following options:
 0. Discuss the web page UI to determine set of features to be implemented. It's where the 
    "Simulation Games web page mockup" will be playing its role;
 
-1. Add user (Gamer) authentication. A mechanic of user authentication should follow a policies 
+1. Consider envolving into development process any modern JS framework like Angular, React, Aurelia.
+   This approach will allow you to create nicely looking responsive web client application.
+   
+2. Add user (Gamer) authentication. A mechanic of user authentication should follow a policies 
    and technics established in UVA;
 
-2. Add server tier supporting the web site. This tier could consist of two things:
+3. Add server tier supporting the web site. This tier could consist of two things:
 
        - Database to store Game's and Gamer's data:
 
@@ -142,13 +152,18 @@ to consider the following options:
 
        - Set of Web Services to make data stored in database available for client application
 
-3. Redesign UI of client web page making it fully responsive. This should keep it usable and 
+4. Redesign UI of client web page making it fully responsive. This should keep it usable and 
    good looking in various devices having different size of viewing area.
+   For smaller devices (tablets, smartphones) the Page's user interface should be redesigned completely;
 
-4. Test the web page in different browsers using a tools available online (SauceLabs, Selenium etc);
+5. Test the web page in different browsers using a tools available online (SauceLabs, Selenium etc).
+   Especially it makes a sense when it comes to use JS frameworks actively (ES6 features are not supported 
+   by any browser);
   
-5. Think about switching from local infrastructure to Cloud computing. This step should be 
+6. Think about switching from local infrastructure to Cloud computing. This step should be 
    coordinated with other UVA's departments, schools, and plans.
+
+Thank you for reading this text!  :)
 
 Andrey Suntsev
  
