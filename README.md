@@ -137,36 +137,35 @@ To convert this "Simulation Games web page mockup" into production web site, I w
 to consider the following options:
 ------------------------------------------------------------------------------------------------
 
-0. Discuss the web page UI to determine set of features to be implemented. It's where the 
-   "Simulation Games web page mockup" will be playing its role;
+1. Discuss the web page UI to determine set of features to be implemented. It's where the "Simulation Games web page mockup"
+   will be playing its role;
 
-1. Consider envolving into development process any modern JS framework like Angular, React, Aurelia.
-   This approach will allow you to create nicely looking responsive web client application.
-   
-2. Add user (Gamer) authentication. A mechanic of user authentication should follow a policies 
-   and technics established in UVA;
+2. Consider involving into development process any modern JS framework like Angular, React, Aurelia. This approach will allow
+   you to create nicely looking responsive web client application with two-way binding between View and View Model components
+   and ability to communicate with Web services for delivering needed content from Web
 
-3. Add server tier supporting the web site. This tier could consist of two things:
+3. Add user (Gamer) authentication. A mechanic of user authentication should follow a policies and technics established in UVA;
 
-       - Database to store Game's and Gamer's data:
+4. Add server tier supporting the web site. This tier could consist of two things:
 
-              - initial data sets for constructing the page's content dynamically (list of Games and 
-                their descriptions, for instance)
-              - Game's status associated with particular Gamer;
-              - any other data to support gaming sessions
+    - Database to store Game's and Gamer's data:
 
-       - Set of Web Services to make data stored in database available for client application
+           - initial data sets for constructing the page's content dynamically (list of Games and 
+             their descriptions, for instance)
+           - Game's status associated with particular Gamer;
+           - any other data to support gaming sessions
 
-4. Redesign UI of client web page making it fully responsive. This should keep it usable and 
-   good looking in various devices having different size of viewing area.
-   For smaller devices (tablets, smartphones) the Page's user interface should be redesigned completely;
+    - Set of Web Services to make data stored in database available for client application
 
-5. Test the web page in different browsers using a tools available online (SauceLabs, Selenium etc).
-   Especially it makes a sense when it comes to use JS frameworks actively (ES6 features are not supported 
-   by any browser);
-  
-6. Think about switching from local infrastructure to Cloud computing. This step should be 
-   coordinated with other UVA's departments, schools, and plans.
+5. Redesign UI of client web page making it fully responsive. This should keep it usable and good looking in various devices
+   having different size of viewing area. For smaller devices (tablets, smartphones) the Page's user interface should be
+   redesigned completely;
+
+6. Test the web page in different browsers using a tools available online (SauceLabs, Selenium etc). Especially it makes a 
+   sense when it comes to use JS frameworks actively (ES6 features are not supported by any browser);
+
+7. Think about switching from local infrastructure to Cloud computing. This step should be coordinated with other UVA's
+   departments, schools, and plans.
 
 Thank you for reading this text!  :)
 
