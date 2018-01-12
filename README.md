@@ -67,7 +67,9 @@ Manually setting up Windows machine:
    If it works as it should, you'll see test Apache web page.
 
 3. Now copy whole directory structure of the "Simulation Games web page mockup" from GitHub repository (see link above)
-   to the c:\Apache24\htdocs folder. You should have the following directory structure in the c:\Apache24\htdocs folder:
+   to the c:\Apache24\htdocs folder. 
+   For your convenience I prepared uva-gswp-11.zip file which can be copied with minimum efforts.
+   You should have the following directory structure in the c:\Apache24\htdocs folder:
 
    c:\Apache24\htdocs\css         -- folder
    
@@ -98,7 +100,10 @@ Manually setting up Linux machine:
    to instructions available online.
 
 2. Now copy whole directory structure of the "Simulation Games web page mockup" from GitHub repository (see link above)
-   to the /var/www/html folder (you should have ROOT privileges). You should have the following directory structure in the c:\Apache24\htdocs folder:
+   to the /var/www/html folder (you should have ROOT privileges). 
+   For your convenience I prepared uva-gswp-11.zip file which can be copied with minimum efforts. The ZIP file can be
+   unzipped by the $ unzip uva-gswp-11.zip  command on Linux Shell.
+   You should have the following directory structure in the c:\Apache24\htdocs folder:
 
    /var/www/html/css         -- folder
    
