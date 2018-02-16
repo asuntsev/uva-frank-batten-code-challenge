@@ -46,7 +46,7 @@ In order to run the page (to verify its interactivity features), you may conside
 2. Run it from Andrey Suntsev's AWS EC2 Linux instance by link below. I'm confirming that the web page source code
    being stored on GitHub and source code on the AWS EC2 instance ARE IDENTICAL.
 
-   http://ec2-54-158-25-204.compute-1.amazonaws.com/uva-gswp/index.html
+   http://ec2-34-228-186-55.compute-1.amazonaws.com/uva-gswp/index.html
 
 ------------------------------------------------------------------------------------------------
 Manually setting up Windows machine:
